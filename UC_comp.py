@@ -51,8 +51,10 @@ Team1_score = []
 Team2_score = []
 Team2 = []
 Date = []
+season = []
+labels = range(1994,2020)
 
-for year in years:
+for i, year in enumerate(years):
     for table in year:
         for row in table.findAll('tr')[1:]:
             cells=row.findAll('td')
@@ -60,11 +62,14 @@ for year in years:
             Team1_score.append(cells[1].find(text=True))
             Team2_score.append(cells[2].find(text=True))
             Team2.append(cells[3].find(text=True))
+            
             if len(cells)==5:
                 Date.append(cells[4].find(text=True))
             else:
                 Date.append(cells[5].find(text=True))
                 
+            season.append(labels[i])
+        
 Team1[29] = 'University of Lancaster'  
 
 #Rounds
@@ -76,6 +81,7 @@ early_years = begining * 4
 mid_years = mid * 11
 late_years = end * 11
 rounds = early_years + mid_years + late_years
+
 '''
 #Clean
 unique_names = set(Team1 + Team2)
@@ -94,6 +100,7 @@ Data['Team2_score'] = [score.rstrip("\n") for score in Team2_score]
 Data['Team2'] = [get_name(name) for name in Team2]
 Data['Date'] = [datetime.strptime(day.rstrip("\n"),"%d %B %Y") for day in Date]       
 Data['Round'] = rounds
+Data['Season'] = season
 
 #Data.to_csv('UC_database.txt')                
                     
