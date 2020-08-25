@@ -1,0 +1,857 @@
+,Team1,Team1_score,Team2_score,Team2,Date,Round
+0,University of Birmingham,170,205,University of Aberdeen,1994-09-21,1R
+1,"New College, Oxford",145,115,University of North London,1994-09-28,1R
+2,University of Liverpool,150,100,University of Sheffield,1994-10-05,1R
+3,"Brasenose College, Oxford",185,190,"Trinity College, Cambridge",1994-10-12,1R
+4,University of Manchester Institute of Science and Technology,95,185,University of Edinburgh,1994-10-19,1R
+5,Open University,135,150,"St Benet's Hall, Oxford",1994-10-26,1R
+6,University of Sussex,120,210,"Robinson College, Cambridge",1994-11-02,1R
+7,Robert Gordon University,75,225,University of Bristol,1994-11-09,1R
+8,"Birkbeck, University of London",215,160,Queen's University Belfast,1994-11-16,1R
+9,"Keble College, Oxford",265,130,University of Hull,1994-11-23,1R
+10,Barts and The London School of Medicine and Dentistry,120,170,"University of Wales, Lampeter",1994-11-30,1R
+11,"Jesus College, Cambridge",80,290,University of St Andrews,1994-12-07,1R
+12,University of Aberdeen,325,145,"Brasenose College, Oxford",1994-12-14,2R
+13,Open University,235,180,University of Bristol,1994-12-21,2R
+14,"Trinity College, Cambridge",300,215,Queen's University Belfast,1994-12-28,2R
+15,"Birkbeck, University of London",120,255,University of St Andrews,1995-01-04,2R
+16,"New College, Oxford",200,175,"St Benet's Hall, Oxford",1995-01-11,2R
+17,"University of Wales, Lampeter",150,230,University of Birmingham,1995-01-18,2R
+18,"Keble College, Oxford",130,255,University of Edinburgh,1995-01-25,2R
+19,University of Liverpool,105,255,"Robinson College, Cambridge",1995-02-01,2R
+20,University of Aberdeen,225,155,Open University,1995-02-08,QF
+21,"Trinity College, Cambridge",335,155,University of St Andrews,1995-02-15,QF
+22,"New College, Oxford",175,165,University of Birmingham,1995-02-22,QF
+23,University of Edinburgh,230,185,"Robinson College, Cambridge",1995-03-01,QF
+24,"Trinity College, Cambridge",245,235,University of Aberdeen,1995-03-15,SF
+25,"New College, Oxford",260,220,University of Edinburgh,1995-03-22,SF
+26,"Trinity College, Cambridge",390,180,"New College, Oxford",1995-03-29,F
+27,Middlesex University,215,200,University of Exeter,1995-11-01,1R
+28,London School of Economics,260,155,"Keble College, Oxford",1995-11-08,1R
+29,Lancaster University,240,225,Swansea University,1995-11-15,1R
+30,University of Surrey,155,175,Liverpool John Moores University,1995-11-22,1R
+31,"Gonville and Caius College, Cambridge",195,210,"University College, Oxford",1995-11-29,1R
+32,Charing Cross Hospital,105,230,Heriot-Watt University,1995-12-06,1R
+33,Keele University,190,160,"Trinity Hall, Cambridge",1995-12-13,1R
+34,Newcastle University,295,155,Open University,1995-12-20,1R
+35,University of Birmingham,135,270,"Selwyn College, Cambridge",1995-12-29,1R
+36,University of St Andrews,125,205,Imperial College London,1996-01-03,1R
+37,"Pembroke College, Oxford",200,215,University of Warwick,1996-01-10,1R
+38,"Lucy Cavendish College, Cambridge",120,240,London South Bank University,1996-01-17,1R
+39,Middlesex University,220,225,"Selwyn College, Cambridge",1996-01-24,2R
+40,"University College, Oxford",335,105,Heriot-Watt University,1996-01-31,2R
+41,London School of Economics,230,195,Keele University,1996-02-07,2R
+42,"Pembroke College, Oxford",285,200,Swansea University,1996-02-14,2R
+43,University of Warwick,200,170,"Gonville and Caius College, Cambridge",1996-02-21,2R
+44,Newcastle University,300,140,London South Bank University,1996-02-28,2R
+45,University of Exeter,185,165,Liverpool John Moores University,1996-03-06,2R
+46,Imperial College London,290,140,Lancaster University,1996-03-13,2R
+47,"Selwyn College, Cambridge",270,175,"University College, Oxford",1996-03-20,QF
+48,London School of Economics,225,190,"Pembroke College, Oxford",1996-03-27,QF
+49,University of Warwick,235,165,Newcastle University,1996-04-03,QF
+50,University of Exeter,70,325,Imperial College London,1996-04-10,QF
+51,"Selwyn College, Cambridge",210,280,London School of Economics,1996-04-17,SF
+52,University of Warwick,230,300,Imperial College London,1996-04-24,SF
+53,London School of Economics,220,275,Imperial College London,1996-05-01,F
+54,Imperial College London,200,210,"St Catharine's College, Cambridge",1996-11-12,1R
+55,Queen's University Belfast,165,135,Cardiff University,1996-11-19,1R
+56,Barts and The London School of Medicine and Dentistry,155,135,"Keble College, Oxford",1996-11-26,1R
+57,University of Manchester,360,40,"Birkbeck, University of London",1996-12-03,1R
+58,"Newnham College, Cambridge",200,155,London School of Economics,1996-12-10,1R
+59,University of Glamorgan,220,175,Charing Cross Hospital,1996-12-17,1R
+60,University of St Andrews,215,170,"Girton College, Cambridge",1997-01-06,1R
+61,University of Surrey,130,230,"University of the West of England, Bristol",1997-01-13,1R
+62,"Corpus Christi College, Cambridge",240,205,"Exeter College, Oxford",1997-01-20,1R
+63,Open University,395,85,Swansea University,1997-01-27,1R
+64,"Harris Manchester College, Oxford",200,165,University of Glasgow,1997-02-03,1R
+65,University of Portsmouth,150,280,"Magdalen College, Oxford",1997-02-10,1R
+66,"Magdalen College, Oxford",195,175,"University of the West of England, Bristol",1997-02-26,2R
+67,Queen's University Belfast,250,130,"Girton College, Cambridge",1997-03-05,2R
+68,Victoria University of Manchester,200,165,Imperial College London,1997-03-12,2R
+69,University of Glamorgan,155,150,University of St Andrews,1997-03-19,2R
+70,"Newnham College, Cambridge",125,165,"Harris Manchester College, Oxford",1997-03-26,2R
+71,Charing Cross Hospital,225,95,Barts and The London School of Medicine and Dentistry,1997-04-02,2R
+72,"St Catharine's College, Cambridge",215,255,"Exeter College, Oxford",1997-04-09,2R
+73,"Corpus Christi College, Cambridge",185,215,Open University,1997-04-16,2R
+74,"Magdalen College, Oxford",335,110,Queen's University Belfast,1997-04-23,QF
+75,Victoria University of Manchester,235,150,University of Glamorgan,1997-04-30,QF
+76,"Harris Manchester College, Oxford",135,210,Charing Cross Hospital,1997-05-07,QF
+77,"Exeter College, Oxford",170,180,Open University,1997-05-14,QF
+78,"Magdalen College, Oxford",240,225,Victoria University of Manchester,1997-05-21,SF
+79,Charing Cross Hospital,65,415,Open University,1997-05-28,SF
+80,"Magdalen College, Oxford",250,195,Open University,1997-06-04,F
+81,University of Edinburgh,190,180,"Jesus College, Cambridge",1997-09-10,1R
+82,"Birkbeck, University of London",245,195,Cardiff University,1997-09-17,1R
+83,University of Exeter,175,180,"Robinson College, Cambridge",1997-09-24,1R
+84,"Magdalen College, Oxford",225,185,King's College London,1997-10-01,1R
+85,University of Sheffield,145,265,University of Aberdeen,1997-10-08,1R
+86,"Christ Church, Oxford",155,175,Open University,1997-10-15,1R
+87,University of Liverpool,130,220,"Newnham College, Cambridge",1997-10-22,1R
+88,Queen's University Belfast,300,70,Barts and The London School of Medicine and Dentistry,1997-10-29,1R
+89,"Magdalene College, Cambridge",215,90,"St Catherine's College, Oxford",1997-11-04,1R
+90,"St John's College, Oxford",130,175,London School of Economics,1997-11-11,1R
+91,Oxford Brookes University,230,135,University of Warwick,1997-11-18,1R
+92,"Murray Edwards College, Cambridge",35,335,University of Nottingham,1997-12-02,1R
+93,University of Exeter,140,275,"Jesus College, Cambridge",1997-12-09,2R
+94,King's College London,215,230,University of Nottingham,1997-12-16,2R
+95,"Newnham College, Cambridge",120,320,University of Edinburgh,1998-01-06,2R
+96,"Birkbeck, University of London",215,170,"Robinson College, Cambridge",1998-01-13,2R
+97,London School of Economics,245,40,Oxford Brookes University,1998-01-20,2R
+98,Cardiff University,275,105,University of Aberdeen,1998-01-27,2R
+99,"Magdalene College, Cambridge",140,155,Queen's University Belfast,1998-02-03,2R
+100,Open University,235,265,"Magdalen College, Oxford",1998-02-24,2R
+101,"Jesus College, Cambridge",220,250,University of Nottingham,1998-03-04,QF
+102,University of Edinburgh,205,275,"Birkbeck, University of London",1998-03-11,QF
+103,London School of Economics,225,115,Queen's University Belfast,1998-03-18,QF
+104,Cardiff University,80,375,"Magdalen College, Oxford",1998-03-25,QF
+105,University of Nottingham,205,240,"Birkbeck, University of London",1998-04-07,SF
+106,London School of Economics,85,265,"Magdalen College, Oxford",1998-04-14,SF
+107,"Birkbeck, University of London",195,225,"Magdalen College, Oxford",1998-04-21,F
+108,University of Bristol,245,185,Victoria University of Manchester,1998-09-02,1R
+109,"Balliol College, Oxford",195,200,Durham University,1998-09-09,1R
+110,Open University,350,145,Lancaster University,1998-09-16,1R
+111,"Harris Manchester College, Oxford",185,200,"Selwyn College, Cambridge",1998-09-23,1R
+112,"Birkbeck, University of London",300,110,University of Warwick,1998-09-30,1R
+113,University of Portsmouth,135,230,De Montfort University,1998-10-07,1R
+114,Barts and The London School of Medicine and Dentistry,130,170,"Magdalen College, Oxford",1998-10-14,1R
+115,University of Aberdeen,255,145,"Newnham College, Cambridge",1998-10-20,1R
+116,"Christ Church, Oxford",150,245,"Trinity College, Cambridge",1998-10-27,1R
+117,"St Hilda's College, Oxford",115,215,Bangor University,1998-11-03,1R
+118,"Corpus Christi College, Cambridge",145,280,"Oriel College, Oxford",1998-11-10,1R
+119,Queen's University Belfast,100,230,University of Sheffield,1998-11-17,1R
+120,"Downing College, Cambridge",160,235,University of Glasgow,1998-12-01,1R
+121,"City, University of London",200,210,University of Leicester,1998-12-08,1R
+122,"Harris Manchester College, Oxford",185,200,Victoria University of Manchester,1998-12-15,HSLP
+123,"City, University of London",210,300,"Balliol College, Oxford",1999-01-05,HSLP
+124,Open University,210,200,"Magdalen College, Oxford",1999-01-12,2R
+125,University of Aberdeen,75,275,Bangor University,1999-01-19,2R
+126,De Montfort University,135,255,University of Bristol,1999-01-26,2R
+127,"Selwyn College, Cambridge",145,325,University of Leicester,1999-02-09,2R
+128,"Oriel College, Oxford",290,170,Victoria University of Manchester,1999-02-16,2R
+129,University of Glasgow,140,355,Durham University,1999-02-23,2R
+130,"Balliol College, Oxford",205,270,"Birkbeck, University of London",1999-03-03,2R
+131,University of Sheffield,190,255,"Trinity College, Cambridge",1999-03-10,2R
+132,Bangor University,240,170,University of Bristol,1999-03-17,QF
+133,"Oriel College, Oxford",335,160,University of Leicester,1999-03-24,QF
+134,Open University,240,235,"Birkbeck, University of London",1999-03-31,QF
+135,Durham University,325,175,"Trinity College, Cambridge",1999-04-06,QF
+136,Bangor University,130,235,"Oriel College, Oxford",1999-04-13,SF
+137,Open University,310,120,Durham University,1999-04-20,SF
+138,"Oriel College, Oxford",210,265,Open University,1999-04-27,F
+139,Newcastle University,195,185,University of Warwick,1999-09-13,1R
+140,Imperial School of Medicine (Ottoman Empire),135,165,"Murray Edwards College, Cambridge",1999-09-20,1R
+141,"Fitzwilliam College, Cambridge",205,245,University of Sheffield,1999-09-27,1R
+142,Cranfield University,110,280,University of Nottingham,1999-10-04,1R
+143,University of Salford,250,145,Royal Academy of Music,1999-10-11,1R
+144,"Trinity College, Cambridge",150,165,"Keble College, Oxford",1999-10-18,1R
+145,Aberystwyth University,230,140,University of Glasgow,1999-10-25,1R
+146,"St Catharine's College, Cambridge",90,250,"Oriel College, Oxford",1999-11-01,1R
+147,Royal Veterinary College,135,150,"Jesus College, Cambridge",1999-11-08,1R
+148,University of Edinburgh,125,185,"Peterhouse, Cambridge",1999-11-15,1R
+149,GKT School of Medical Education,205,110,"St Hilda's College, Oxford",1999-11-22,1R
+150,"Christ Church, Oxford",255,150,University of Leeds,1999-11-29,1R
+151,University of Manchester Institute of Science and Technology,190,165,University College London,1999-12-06,1R
+152,University of North London,205,175,Durham University,1999-12-13,1R
+153,"Fitzwilliam College, Cambridge",215,230,Durham University,2000-01-17,HSLP
+154,University of Warwick,115,245,University College London,2000-01-24,HSLP
+155,University of Nottingham,215,155,University of North London,2000-01-31,2R
+156,"Oriel College, Oxford",225,170,"Peterhouse, Cambridge",2000-02-07,2R
+157,Newcastle University,180,150,"Jesus College, Cambridge",2000-02-14,2R
+158,University of Sheffield,90,245,"Keble College, Oxford",2000-02-21,2R
+159,"Murray Edwards College, Cambridge",155,200,Aberystwyth University,2000-02-28,2R
+160,GKT School of Medical Education,125,360,Durham University,2000-03-06,2R
+161,University of Salford,135,245,University of Manchester Institute of Science and Technology,2000-03-13,2R
+162,"Christ Church, Oxford",200,170,University College London,2000-03-20,2R
+163,University of Nottingham,175,200,"Oriel College, Oxford",2000-03-27,QF
+164,Newcastle University,120,210,"Keble College, Oxford",2000-04-04,QF
+165,Aberystwyth University,160,340,Durham University,2000-04-11,QF
+166,University of Manchester Institute of Science and Technology,205,190,"Christ Church, Oxford",2000-04-18,QF
+167,"Oriel College, Oxford",220,120,"Keble College, Oxford",2000-04-25,SF
+168,Durham University,250,180,University of Manchester Institute of Science and Technology,2000-05-02,SF
+169,"Oriel College, Oxford",135,325,Durham University,2000-05-09,F
+170,University of Hull,225,205,University of Edinburgh,2000-09-04,1R
+171,"Wycliffe Hall, Oxford",180,215,University of Sheffield,2000-09-11,1R
+172,University of Birmingham,115,325,Durham University,2000-09-18,1R
+173,"Magdalene College, Cambridge",85,335,"University College, Oxford",2000-09-19,1R
+174,University College London,265,150,"New College, Oxford",2000-09-25,1R
+175,Sheffield Hallam University,265,170,University of Bristol,2000-09-26,1R
+176,University of Southampton,120,240,"Newnham College, Cambridge",2000-10-02,1R
+177,University of Aberdeen,145,210,University of York,2000-10-09,1R
+178,"St John's College, Oxford",195,255,"Birkbeck, University of London",2000-10-16,1R
+179,University of Manchester,240,125,"Sidney Sussex College, Cambridge",2000-10-23,1R
+180,University of Manchester Institute of Science and Technology,110,315,"Balliol College, Oxford",2000-10-30,1R
+181,"Queens' College, Cambridge",170,145,Cardiff University,2000-11-06,1R
+182,Cranfield University,80,255,Imperial College London,2000-11-13,1R
+183,University of Warwick,200,150,"Peterhouse, Cambridge",2000-11-20,1R
+184,"Wycliffe Hall, Oxford",110,220,University of Bristol,2000-11-27,HSLP
+185,"St John's College, Oxford",300,145,University of Edinburgh,2000-12-04,HSLP
+186,"Birkbeck, University of London",210,220,"University College, Oxford",2000-12-11,2R
+187,Sheffield Hallam University,180,135,University of Warwick,2000-12-18,2R
+188,"Queens' College, Cambridge",145,170,"St John's College, Oxford",2001-01-08,2R
+189,"Newnham College, Cambridge",155,200,University of Bristol,2001-01-15,2R
+190,University of York,150,270,"Balliol College, Oxford",2001-01-22,2R
+191,University of Hull,250,240,University of Sheffield,2001-01-29,2R
+192,Durham University,140,215,Imperial College London,2001-02-04,2R
+193,University College London,105,250,University of Manchester,2001-02-11,2R
+194,"University College, Oxford",285,160,Sheffield Hallam University,2001-02-19,QF
+195,"St John's College, Oxford",210,175,University of Bristol,2001-02-26,QF
+196,"Balliol College, Oxford",160,210,University of Hull,2001-03-05,QF
+197,Imperial College London,225,195,University of Manchester,2001-03-12,QF
+198,"University College, Oxford",105,220,"St John's College, Oxford",2001-03-19,SF
+199,University of Hull,145,260,Imperial College London,2001-03-26,SF
+200,"St John's College, Oxford",195,250,Imperial College London,2001-04-02,F
+201,University of Hull,185,300,"Somerville College, Oxford",2001-07-23,1R
+202,London School of Economics,140,180,University of Bristol,2001-07-30,1R
+203,University of Edinburgh,150,190,"Christ's College, Cambridge",2001-08-06,1R
+204,University of Salford,155,130,University of Leicester,2001-08-13,1R
+205,"Christ Church, Oxford",235,100,University of Birmingham,2001-08-20,1R
+206,"Wadham College, Oxford",235,120,Cranfield University,2001-09-03,1R
+207,University of Nottingham,125,215,Keele University,2001-09-10,1R
+208,Imperial College London,250,110,De Montfort University,2001-09-17,1R
+209,"Magdalen College, Oxford",140,210,"Trinity College, Cambridge",2001-09-24,1R
+210,Cardiff University,145,200,University College London,2001-10-01,1R
+211,"Downing College, Cambridge",220,230,Newcastle University,2001-10-08,1R
+212,University of St Andrews,40,215,"Churchill College, Cambridge",2001-10-15,1R
+213,Durham University,200,140,University of York,2001-10-22,1R
+214,"St Hugh's College, Oxford",220,145,University of Leeds,2001-10-29,1R
+215,"Downing College, Cambridge",205,195,University of Leeds,2001-11-05,HSLP
+216,University of Edinburgh,230,150,University of Hull,2001-11-12,HSLP
+217,Newcastle University,265,145,University of Salford,2001-11-19,2R
+218,University of Edinburgh,220,130,"Wadham College, Oxford",2001-11-26,2R
+219,"St Hugh's College, Oxford",190,140,"Churchill College, Cambridge",2001-12-03,2R
+220,"Christ Church, Oxford",170,285,Imperial College London,2001-12-10,2R
+221,"Somerville College, Oxford",290,100,Durham University,2001-12-17,2R
+222,"Downing College, Cambridge",180,155,University of Bristol,2002-01-07,2R
+223,"Trinity College, Cambridge",200,250,University College London,2002-01-14,2R
+224,"Christ's College, Cambridge",285,40,Keele University,2002-01-21,2R
+225,Newcastle University,115,290,University of Edinburgh,2002-01-28,QF
+226,"St Hugh's College, Oxford",135,270,Imperial College London,2002-02-04,QF
+227,"Somerville College, Oxford",270,145,"Downing College, Cambridge",2002-02-11,QF
+228,University College London,155,190,"Christ's College, Cambridge",2002-02-18,QF
+229,University of Edinburgh,120,270,Imperial College London,2002-02-25,SF
+230,"Somerville College, Oxford",180,170,"Christ's College, Cambridge",2002-03-04,SF
+231,Imperial College London,185,200,"Somerville College, Oxford",2002-03-11,F
+232,Newcastle University,205,180,University of York,2002-09-02,1R
+233,University of Manchester Institute of Science and Technology,165,200,"Clare College, Cambridge",2002-09-09,1R
+234,University College London,165,175,"Jesus College, Oxford",2002-09-16,1R
+235,University of Liverpool,130,265,"Worcester College, Oxford",2002-09-23,1R
+236,"Selwyn College, Cambridge",160,180,"Merton College, Oxford",2002-09-30,1R
+237,University of Leeds,230,135,Liverpool John Moores University,2002-10-07,1R
+238,Cranfield University,175,165,"Brasenose College, Oxford",2002-10-14,1R
+239,Middlesex University,70,200,University of Manchester,2002-10-21,1R
+240,University of Sheffield,180,125,"Homerton College, Cambridge",2002-10-28,1R
+241,University of Nottingham,225,105,Aberystwyth University,2002-11-04,1R
+242,"Birkbeck, University of London",230,185,"Emmanuel College, Cambridge",2002-11-11,1R
+243,Durham University,190,115,"Queens' College, Cambridge",2002-11-18,1R
+244,University of Warwick,275,140,"Wadham College, Oxford",2002-11-25,1R
+245,University of Southampton,190,125,University of Edinburgh,2002-12-02,1R
+246,University of Manchester Institute of Science and Technology,150,205,University College London,2002-12-09,HSLP
+247,"Emmanuel College, Cambridge",205,150,University of York,2002-12-16,HSLP
+248,Newcastle University,80,215,"Worcester College, Oxford",2002-12-23,2R
+249,University of Warwick,225,145,University of Southampton,2002-12-30,2R
+250,University College London,330,125,"Emmanuel College, Cambridge",2003-01-06,2R
+251,Durham University,225,180,"Jesus College, Oxford",2003-01-13,2R
+252,"Birkbeck, University of London",190,130,"Clare College, Cambridge",2003-01-20,2R
+253,Cranfield University,190,175,University of Manchester,2003-01-27,2R
+254,University of Leeds,170,165,University of Nottingham,2003-02-03,2R
+255,University of Sheffield,195,125,"Merton College, Oxford",2003-02-10,2R
+256,University College London,145,220,"Birkbeck, University of London",2003-02-17,QF
+257,University of Warwick,175,180,University of Sheffield,2003-02-24,QF
+258,Cranfield University,165,160,Durham University,2003-03-03,QF
+259,University of Leeds,230,130,"Worcester College, Oxford",2003-03-10,QF
+260,"Birkbeck, University of London",190,155,University of Sheffield,2003-03-17,SF
+261,Cranfield University,200,125,University of Leeds,2003-03-24,SF
+262,"Birkbeck, University of London",180,155,Cranfield University,2003-03-31,F
+263,"St Hugh's College, Oxford",150,195,University of Strathclyde,2003-09-15,1R
+264,University of Hull,160,180,Bangor University,2003-09-22,1R
+265,"Corpus Christi College, Cambridge",80,150,Royal Northern College of Music,2003-09-29,1R
+266,"St John's College, Oxford",175,235,London Metropolitan University,2003-10-06,1R
+267,University of Edinburgh,115,155,University of Warwick,2003-10-13,1R
+268,"Jesus College, Cambridge",270,90,"Oriel College, Oxford",2003-10-20,1R
+269,"The Queen's College, Oxford",140,105,Imperial College London,2003-10-27,1R
+270,University of Nottingham,110,160,"Magdalen College, Oxford",2003-11-03,1R
+271,University of Bristol,70,225,Durham University,2003-11-10,1R
+272,"Wolfson College, Cambridge",135,140,University of Sussex,2003-11-17,1R
+273,University of Reading,140,210,"Gonville and Caius College, Cambridge",2003-11-24,1R
+274,"St Edmund's College, Cambridge",165,120,London School of Economics,2003-12-01,1R
+275,University of St Andrews,195,75,"City, University of London",2003-12-08,1R
+276,University of Bradford,35,280,Queen's University Belfast,2003-12-15,1R
+277,"St John's College, Oxford",140,125,University of Hull,2003-12-22,HSLP
+278,"St Hugh's College, Oxford",140,155,University of Reading,2003-12-29,HSLP
+279,"Magdalen College, Oxford",165,130,University of Sussex,2004-01-05,2R
+280,University of St Andrews,200,105,Queen's University Belfast,2004-01-12,2R
+281,"Gonville and Caius College, Cambridge",195,140,University of Strathclyde,2004-01-19,2R
+282,"St John's College, Oxford",215,190,University of Reading,2004-01-26,2R
+283,"The Queen's College, Oxford",150,180,Royal Northern College of Music,2004-02-02,2R
+284,"Jesus College, Cambridge",225,110,Bangor University,2004-02-09,2R
+285,London Metropolitan University,150,140,Durham University,2004-02-16,2R
+286,University of Warwick,80,180,"St Edmund's College, Cambridge",2004-02-23,2R
+287,"Magdalen College, Oxford",190,130,Royal Northern College of Music,2004-03-01,QF
+288,"St Edmund's College, Cambridge",50,225,University of St Andrews,2004-03-08,QF
+289,"Gonville and Caius College, Cambridge",180,165,"St John's College, Oxford",2004-03-15,QF
+290,London Metropolitan University,225,210,"Jesus College, Cambridge",2004-03-22,QF
+291,"Magdalen College, Oxford",265,85,University of St Andrews,2004-03-29,SF
+292,"Gonville and Caius College, Cambridge",220,190,London Metropolitan University,2004-04-05,SF
+293,"Magdalen College, Oxford",190,160,"Gonville and Caius College, Cambridge",2004-04-12,F
+294,University of Leicester,150,145,"Jesus College, Cambridge",2004-09-13,1R
+295,University of York,120,250,Lancaster University,2004-09-20,1R
+296,Newcastle University,155,150,"University College, Oxford",2004-09-27,1R
+297,University of Warwick,100,265,University College London,2004-10-04,1R
+298,"Balliol College, Oxford",170,105,"Downing College, Cambridge",2004-10-11,1R
+299,Durham University,190,70,Kingston University,2004-11-01,1R
+300,"St John's College, Cambridge",70,195,University of Reading,2004-11-08,1R
+301,University of Glasgow,100,125,University of Edinburgh,2004-11-15,1R
+302,"St Hilda's College, Oxford",150,120,University of Portsmouth,2004-11-22,1R
+303,"Magdalene College, Cambridge",80,195,University of Sheffield,2004-11-29,1R
+304,Queen's University Belfast,130,185,University of East Anglia,2004-12-06,1R
+305,"Trinity College, Cambridge",110,195,"Corpus Christi College, Oxford",2004-12-13,1R
+306,University of St Andrews,40,315,University of Manchester,2004-12-20,1R
+307,"Royal Holloway, University of London",135,75,"Greyfriars, Oxford",2005-01-03,1R
+308,"University College, Oxford",200,85,University of York,2005-01-10,HSLP
+309,"Jesus College, Cambridge",275,40,Queen's University Belfast,2005-01-17,HSLP
+310,University of Edinburgh,155,70,"Royal Holloway, University of London",2005-01-24,2R
+311,University of Manchester,250,130,Newcastle University,2005-01-31,2R
+312,"St Hilda's College, Oxford",155,120,University of Leicester,2005-02-07,2R
+313,University of Sheffield,145,240,"Corpus Christi College, Oxford",2005-02-14,2R
+314,"Balliol College, Oxford",215,195,Durham University,2005-02-21,2R
+315,Lancaster University,175,60,University of Reading,2005-02-28,2R
+316,University College London,245,105,University of East Anglia,2005-03-07,2R
+317,"University College, Oxford",135,165,"Jesus College, Cambridge",2005-03-14,2R
+318,"Balliol College, Oxford",215,75,University of Edinburgh,2005-03-21,QF
+319,"Corpus Christi College, Oxford",345,80,Lancaster University,2005-03-28,QF
+320,University College London,175,110,"Jesus College, Cambridge",2005-04-04,QF
+321,University of Manchester,215,150,"St Hilda's College, Oxford",2005-04-11,QF
+322,"Balliol College, Oxford",205,255,"Corpus Christi College, Oxford",2005-04-18,SF
+323,University College London,190,185,University of Manchester,2005-04-25,SF
+324,"Corpus Christi College, Oxford",250,140,University College London,2005-05-09,F
+325,"St Hugh's College, Oxford",190,240,University of Manchester,2005-09-19,1R
+326,"University of Wales, Lampeter",160,125,University of Exeter,2005-09-26,1R
+327,"Magdalen College, Oxford",70,320,"Trinity Hall, Cambridge",2005-10-03,1R
+328,University of Liverpool,275,70,University of Hull,2005-10-10,1R
+329,"St Hilda's College, Oxford",165,130,Durham University,2005-10-17,1R
+330,University of Birmingham,125,115,University of Strathclyde,2005-11-07,1R
+331,"Lucy Cavendish College, Cambridge",110,160,University of Hertfordshire,2005-11-14,1R
+332,University of Sheffield,100,235,University of Sussex,2005-11-21,1R
+333,University of Edinburgh,110,275,"Gonville and Caius College, Cambridge",2005-11-28,1R
+334,"St John's College, Oxford",130,165,"Trinity College, Cambridge",2005-12-04,1R
+335,SOAS University of London,205,95,"Christ's College, Cambridge",2005-12-11,1R
+336,"Churchill College, Cambridge",170,120,University of York,2005-12-18,1R
+337,London Business School,170,130,"Trinity College, Oxford",2006-01-08,1R
+338,University of Nottingham,245,135,Imperial College School of Medicine,2006-01-15,1R
+339,"St John's College, Oxford",190,125,"St Hugh's College, Oxford",2006-01-22,HSLP
+340,Imperial College School of Medicine,205,145,"Trinity College, Oxford",2006-01-29,HSLP
+341,SOAS University of London,200,170,"Churchill College, Cambridge",2006-02-05,2R
+342,London Business School,185,160,University of Nottingham,2006-02-12,2R
+343,"St John's College, Oxford",170,175,Imperial College School of Medicine,2006-02-19,2R
+344,University of Liverpool,195,170,"Trinity College, Cambridge",2006-02-26,2R
+345,"Trinity Hall, Cambridge",255,95,University of Birmingham,2006-03-05,2R
+346,"Gonville and Caius College, Cambridge",175,160,University of Sussex,2006-03-12,2R
+347,University of Manchester,255,45,"St Hilda's College, Oxford",2006-03-19,2R
+348,"University of Wales, Lampeter",140,145,University of Hertfordshire,2006-03-26,2R
+349,London Business School,215,145,"Gonville and Caius College, Cambridge",2006-04-02,QF
+350,University of Manchester,275,140,Imperial College School of Medicine,2006-04-09,QF
+351,SOAS University of London,155,225,"Trinity Hall, Cambridge",2006-04-16,QF
+352,University of Liverpool,195,140,University of Hertfordshire,2006-04-23,QF
+353,London Business School,60,250,University of Manchester,2006-04-30,SF
+354,"Trinity Hall, Cambridge",200,140,University of Liverpool,2006-05-08,SF
+355,University of Manchester,160,150,"Trinity Hall, Cambridge",2006-05-15,F
+356,Aberystwyth University,205,195,University of Bristol,2006-08-07,1R
+357,University College London,165,160,"Pembroke College, Cambridge",2006-08-14,1R
+358,University of York,265,95,"Harris Manchester College, Oxford",2006-08-21,1R
+359,"Merton College, Oxford",245,150,University of Manchester,2006-08-28,1R
+360,University of Brighton,190,130,Imperial College School of Medicine,2006-09-04,1R
+361,"Girton College, Cambridge",190,140,University of Sussex,2006-09-11,1R
+362,Newcastle University,95,270,"Royal Holloway, University of London",2006-09-18,1R
+363,Durham University,245,110,"Churchill College, Cambridge",2006-09-25,1R
+364,"Robinson College, Cambridge",40,295,"Wadham College, Oxford",2006-10-01,1R
+365,University of Edinburgh,195,120,University of Birmingham,2006-10-08,1R
+366,"Corpus Christi College, Oxford",220,150,University of Reading,2006-10-15,1R
+367,University of Warwick,195,115,"Emmanuel College, Cambridge",2006-11-05,1R
+368,"Linacre College, Oxford",150,170,University of East Anglia,2006-11-12,1R
+369,"Somerville College, Oxford",235,115,"Trinity Hall, Cambridge",2006-11-19,1R
+370,University of Bristol,145,200,University of Manchester,2006-11-26,HSLP
+371,"Pembroke College, Cambridge",185,225,University of Reading,2006-12-03,HSLP
+372,University of Manchester,210,60,University of Reading,2007-01-07,2R
+373,University of Brighton,110,245,University of York,2007-01-14,2R
+374,"Merton College, Oxford",170,180,Aberystwyth University,2007-01-21,2R
+375,Durham University,260,135,"Somerville College, Oxford",2007-01-28,2R
+376,"Corpus Christi College, Oxford",45,245,University of Edinburgh,2007-02-04,2R
+377,"Royal Holloway, University of London",95,170,"Wadham College, Oxford",2007-02-11,2R
+378,"Girton College, Cambridge",85,185,University College London,2007-02-18,2R
+379,University of Warwick,165,160,University of East Anglia,2007-02-25,2R
+380,University of Manchester,230,190,"Wadham College, Oxford",2007-03-04,QF
+381,Durham University,220,115,University of Edinburgh,2007-03-11,QF
+382,University College London,220,145,University of York,2007-03-18,QF
+383,Aberystwyth University,130,165,University of Warwick,2007-03-25,QF
+384,University of Manchester,240,90,Durham University,2007-04-01,SF
+385,University College London,85,235,University of Warwick,2007-04-08,SF
+386,University of Manchester,140,170,University of Warwick,2007-04-16,F
+387,University of Nottingham,240,185,Lancaster University,2007-07-09,1R
+388,SOAS University of London,165,160,"Magdalen College, Oxford",2007-07-16,1R
+389,University of Leeds,225,165,University of Liverpool,2007-07-23,1R
+390,University of Birmingham,145,200,University of St Andrews,2007-07-30,1R
+391,"St Cross College, Oxford",110,255,"Trinity Hall, Cambridge",2007-08-07,1R
+392,University of Central Lancashire,90,265,University of Sheffield,2007-08-14,1R
+393,"Lucy Cavendish College, Cambridge",130,225,University of Warwick,2007-08-21,1R
+394,"Worcester College, Oxford",160,130,"Pembroke College, Cambridge",2007-08-28,1R
+395,Bangor University,105,130,University of Edinburgh,2007-09-04,1R
+396,Durham University,120,255,"St Edmund Hall, Oxford",2007-09-11,1R
+397,"Jesus College, Cambridge",140,215,University of Exeter,2007-09-18,1R
+398,University of Manchester,260,105,Newcastle University,2007-09-25,1R
+399,"St George's, University of London",130,175,University of York,2007-10-01,1R
+400,"Christ Church, Oxford",245,65,"Homerton College, Cambridge",2007-10-08,1R
+401,Lancaster University,50,315,University of Birmingham,2007-10-15,HSLP
+402,University of Liverpool,100,185,"Magdalen College, Oxford",2007-10-22,HSLP
+403,SOAS University of London,110,155,University of Exeter,2007-11-12,2R
+404,University of York,130,205,University of St Andrews,2007-11-19,2R
+405,University of Birmingham,200,210,"Magdalen College, Oxford",2007-11-26,2R
+406,University of Leeds,195,230,University of Warwick,2007-12-03,2R
+407,University of Manchester,210,170,"St Edmund Hall, Oxford",2007-12-10,2R
+408,University of Sheffield,270,135,University of Edinburgh,2007-12-17,2R
+409,University of Nottingham,180,350,"Christ Church, Oxford",2008-01-07,2R
+410,"Trinity Hall, Cambridge",220,50,"Worcester College, Oxford",2008-01-14,2R
+411,University of Manchester,195,150,"Trinity Hall, Cambridge",2008-01-21,QF
+412,"Christ Church, Oxford",255,170,University of Warwick,2008-01-28,QF
+413,University of St Andrews,115,180,"Magdalen College, Oxford",2008-02-04,QF
+414,University of Sheffield,305,155,University of Exeter,2008-02-11,QF
+415,University of Manchester,170,220,"Christ Church, Oxford",2008-02-18,SF
+416,"Magdalen College, Oxford",165,275,University of Sheffield,2008-02-25,SF
+417,"Christ Church, Oxford",220,170,University of Sheffield,2008-03-03,F
+418,University of Hull,140,230,"City, University of London",2008-07-07,1R
+419,"Corpus Christi College, Oxford",330,95,Durham University,2008-07-14,1R
+420,Royal Veterinary College,95,215,University of York,2008-07-21,1R
+421,University of Surrey,170,185,University of Warwick,2008-07-28,1R
+422,"Queens' College, Cambridge",205,115,"St George's, University of London",2008-08-04,1R
+423,University of Exeter,195,150,"Pembroke College, Oxford",2008-08-11,1R
+424,"Selwyn College, Cambridge",180,115,"St Anne's College, Oxford",2008-08-18,1R
+425,London School of Economics,220,85,University of Bath,2008-08-25,1R
+426,"St John's College, Cambridge",185,220,"Lincoln College, Oxford",2008-09-01,1R
+427,"Murray Edwards College, Cambridge",65,260,University of Sheffield,2008-09-08,1R
+428,University of Southampton,135,190,University of Brighton,2008-09-15,1R
+429,"King's College, Cambridge",180,190,University of Edinburgh,2008-09-22,1R
+430,University of Bristol,70,285,University of Manchester,2008-09-29,1R
+431,"Exeter College, Oxford",135,190,University of St Andrews,2008-10-06,1R
+432,"St John's College, Cambridge",325,110,"Pembroke College, Oxford",2008-10-13,HSLP
+433,"King's College, Cambridge",225,150,University of Surrey,2008-10-20,HSLP
+434,London School of Economics,270,135,"Selwyn College, Cambridge",2008-11-10,2R
+435,University of Manchester,280,80,University of York,2008-11-17,2R
+436,"St John's College, Cambridge",345,125,"King's College, Cambridge",2008-11-24,2R
+437,"Corpus Christi College, Oxford",295,85,University of Edinburgh,2008-12-01,2R
+438,"Queens' College, Cambridge",205,125,University of Warwick,2008-12-08,2R
+439,"Lincoln College, Oxford",280,120,University of St Andrews,2008-12-15,2R
+440,"City, University of London",185,115,University of Brighton,2008-12-22,2R
+441,University of Sheffield,170,175,University of Exeter,2009-01-05,2R
+442,University of Manchester,210,165,London School of Economics,2009-01-12,QF
+443,"Lincoln College, Oxford",335,50,"Queens' College, Cambridge",2009-01-19,QF
+444,"Corpus Christi College, Oxford",350,15,University of Exeter,2009-01-26,QF
+445,"St John's College, Cambridge",265,135,"City, University of London",2009-02-02,QF
+446,University of Manchester,345,30,"Lincoln College, Oxford",2009-02-09,SF
+447,"Corpus Christi College, Oxford",260,150,"St John's College, Cambridge",2009-02-16,SF
+448,University of Manchester,190,275,"Corpus Christi College, Oxford",2009-02-23,F
+449,"Christ's College, Cambridge",170,200,University of Warwick,2009-07-06,1R
+450,Royal Veterinary College,60,235,University of Manchester,2009-07-13,1R
+451,Loughborough University,205,175,University College London,2009-07-20,1R
+452,"Clare College, Cambridge",165,215,"Jesus College, Oxford",2009-07-27,1R
+453,University of Nottingham,145,180,"Girton College, Cambridge",2009-08-03,1R
+454,University of Edinburgh,170,155,University of Central Lancashire,2009-08-10,1R
+455,King's College London,155,140,Cardiff University,2009-08-24,1R
+456,"Newnham College, Cambridge",260,120,University of Sussex,2009-08-31,1R
+457,Imperial College London,175,135,University of Southampton,2009-09-07,1R
+458,"St John's College, Oxford",270,90,Durham University,2009-09-14,1R
+459,"Magdalene College, Cambridge",135,145,"St Hugh's College, Oxford",2009-09-21,1R
+460,University of York,55,200,"St George's, University of London",2009-09-28,1R
+461,University of St Andrews,255,150,"Somerville College, Oxford",2009-10-05,1R
+462,"Emmanuel College, Cambridge",165,205,"Regent's Park College, Oxford",2009-10-12,1R
+463,University College London,220,145,"Clare College, Cambridge",2009-10-19,HSLP
+464,"Christ's College, Cambridge",105,280,"Emmanuel College, Cambridge",2009-10-26,HSLP
+465,"Girton College, Cambridge",170,160,"St George's, University of London",2009-11-02,2R
+466,"Newnham College, Cambridge",110,185,University of St Andrews,2009-11-09,2R
+467,"St John's College, Oxford",220,190,Loughborough University,2009-11-16,2R
+468,University College London,185,260,"Emmanuel College, Cambridge",2009-11-23,2R
+469,Imperial College London,280,80,"St Hugh's College, Oxford",2009-11-30,2R
+470,"Jesus College, Oxford",200,170,University of Warwick,2009-12-07,2R
+471,University of Edinburgh,170,150,"Regent's Park College, Oxford",2009-12-14,2R
+472,University of Manchester,210,90,King's College London,2009-12-21,2R
+473,"St John's College, Oxford",280,55,"Girton College, Cambridge",2010-01-04,QF
+474,University of St Andrews,50,195,University of Manchester,2010-01-11,QF
+475,Imperial College London,240,110,University of Edinburgh,2010-01-18,QF
+476,"Jesus College, Oxford",125,280,"Emmanuel College, Cambridge",2010-01-25,QF
+477,"St John's College, Oxford",150,140,University of Manchester,2010-02-01,QF
+478,"Girton College, Cambridge",140,115,University of St Andrews,2010-02-08,QF
+479,Imperial College London,160,275,"Emmanuel College, Cambridge",2010-02-15,QF
+480,University of Edinburgh,195,185,"Jesus College, Oxford",2010-02-22,QF
+481,University of Manchester,170,165,University of Edinburgh,2010-03-01,QF
+482,"Girton College, Cambridge",100,200,Imperial College London,2010-03-15,QF
+483,"St John's College, Oxford",260,170,Imperial College London,2010-03-22,SF
+484,"Emmanuel College, Cambridge",315,120,University of Manchester,2010-03-29,SF
+485,"St John's College, Oxford",100,315,"Emmanuel College, Cambridge",2010-04-05,F
+486,University of St Andrews,185,190,University of Bristol,2010-07-05,1R
+487,Cardiff University,210,220,Oxford Brookes University,2010-07-12,1R
+488,"Balliol College, Oxford",155,190,"Queens' College, Cambridge",2010-07-19,1R
+489,"Peterhouse, Cambridge",265,165,University of Exeter,2010-07-26,1R
+490,University of York,245,105,Royal College of Music,2010-08-02,1R
+491,"Newnham College, Cambridge",135,115,University of Southampton,2010-08-09,1R
+492,"Christ's College, Cambridge",290,60,University of Liverpool,2010-08-16,1R
+493,"Downing College, Cambridge",160,95,"St Edmund Hall, Oxford",2010-08-23,1R
+494,Newcastle University,70,315,University of Sheffield,2010-08-30,1R
+495,University College London,155,125,"Hertford College, Oxford",2010-09-06,1R
+496,Durham University,120,340,"Magdalen College, Oxford",2010-09-13,1R
+497,University of Edinburgh,335,35,"Jesus College, Oxford",2010-09-20,1R
+498,University of the Arts London,215,95,Imperial College London,2010-09-27,1R
+499,"Merton College, Oxford",180,175,"St John's College, Cambridge",2010-10-11,1R
+500,Cardiff University,140,225,University of Exeter,2010-10-18,HSLP
+501,University of St Andrews,165,225,"St John's College, Cambridge",2010-10-25,HSLP
+502,"Christ's College, Cambridge",220,160,University of Edinburgh,2010-11-01,2R
+503,Oxford Brookes University,320,100,University of the Arts London,2010-11-08,2R
+504,University of Exeter,140,195,University of York,2010-11-15,2R
+505,"Peterhouse, Cambridge",215,205,"St John's College, Cambridge",2010-11-22,2R
+506,University College London,230,250,University of Sheffield,2010-11-29,2R
+507,"Downing College, Cambridge",125,190,"Magdalen College, Oxford",2010-12-06,2R
+508,"Merton College, Oxford",120,175,"Queens' College, Cambridge",2010-12-13,2R
+509,"Newnham College, Cambridge",70,275,University of Bristol,2010-12-20,2R
+510,"Christ's College, Cambridge",160,185,Oxford Brookes University,2011-01-10,QF
+511,University of York,120,205,"Peterhouse, Cambridge",2011-01-17,QF
+512,University of Sheffield,230,225,"Magdalen College, Oxford",2011-01-24,QF
+513,"Queens' College, Cambridge",190,160,University of Bristol,2011-01-31,QF
+514,Oxford Brookes University,135,265,University of Sheffield,2011-02-07,QF
+515,"Christ's College, Cambridge",120,330,"Magdalen College, Oxford",2011-02-14,QF
+516,"Peterhouse, Cambridge",215,160,"Queens' College, Cambridge",2011-02-21,QF
+517,University of York,280,140,University of Bristol,2011-02-28,QF
+518,"Magdalen College, Oxford",245,195,"Queens' College, Cambridge",2011-03-07,QF
+519,Oxford Brookes University,190,195,University of York,2011-03-14,QF
+520,University of Sheffield,155,250,University of York,2011-03-21,SF
+521,"Peterhouse, Cambridge",130,260,"Magdalen College, Oxford",2011-03-28,SF
+522,University of York,85,290,"Magdalen College, Oxford",2011-04-04,F
+523,University of Warwick,220,125,University of Edinburgh,2011-07-04,1R
+524,"Trinity College, Cambridge",105,225,University of Birmingham,2011-07-11,1R
+525,"Worcester College, Oxford",180,190,"Clare College, Cambridge",2011-07-18,1R
+526,Queen's University Belfast,85,235,Newcastle University,2011-07-25,1R
+527,"Homerton College, Cambridge",200,205,"Balliol College, Oxford",2011-08-01,1R
+528,"Christ Church, Oxford",270,105,University of Bath,2011-08-08,1R
+529,University of Plymouth,45,325,Durham University,2011-08-15,1R
+530,University of St Andrews,165,195,"Merton College, Oxford",2011-08-22,1R
+531,University of Manchester,255,70,"Selwyn College, Cambridge",2011-08-29,1R
+532,University College London,185,105,University of York,2011-09-05,1R
+533,"King's College, Cambridge",95,280,"The Queen's College, Oxford",2011-09-12,1R
+534,University of Leeds,220,115,"Goldsmiths, University of London",2011-09-19,1R
+535,"St Anne's College, Oxford",140,205,"Pembroke College, Cambridge",2011-09-26,1R
+536,London School of Hygiene & Tropical Medicine,155,215,University of Nottingham,2011-10-03,1R
+537,London School of Hygiene & Tropical Medicine,115,190,"Homerton College, Cambridge",2011-10-10,HSLP
+538,University of St Andrews,110,250,"Worcester College, Oxford",2011-10-17,HSLP
+539,University of Leeds,65,320,"Clare College, Cambridge",2011-10-24,2R
+540,University of Birmingham,80,220,Newcastle University,2011-10-31,2R
+541,Durham University,190,245,"Homerton College, Cambridge",2011-11-07,2R
+542,"The Queen's College, Oxford",185,200,"Worcester College, Oxford",2011-11-14,2R
+543,"Christ Church, Oxford",155,215,University of Manchester,2011-11-21,2R
+544,University College London,220,150,University of Warwick,2011-11-28,2R
+545,"Merton College, Oxford",160,170,"Balliol College, Oxford",2011-12-05,2R
+546,"Pembroke College, Cambridge",280,125,University of Nottingham,2011-12-12,2R
+547,University of Manchester,125,195,University College London,2011-12-19,QF
+548,"Balliol College, Oxford",160,240,"Pembroke College, Cambridge",2012-01-02,QF
+549,"Worcester College, Oxford",190,150,Newcastle University,2012-01-09,QF
+550,"Clare College, Cambridge",170,145,"Homerton College, Cambridge",2012-01-16,QF
+551,University College London,120,170,"Worcester College, Oxford",2012-01-23,QF
+552,University of Manchester,330,95,Newcastle University,2012-01-30,QF
+553,"Pembroke College, Cambridge",250,175,"Clare College, Cambridge",2012-02-06,QF
+554,"Balliol College, Oxford",170,145,"Homerton College, Cambridge",2012-02-13,QF
+555,University of Manchester,270,250,"Clare College, Cambridge",2012-02-20,QF
+556,University College London,235,145,"Balliol College, Oxford",2012-02-27,QF
+557,"Worcester College, Oxford",65,240,University of Manchester,2012-03-05,SF
+558,"Pembroke College, Cambridge",185,125,University College London,2012-03-12,SF
+559,University of Manchester,180,135,"Pembroke College, Cambridge",2012-03-19,F
+560,Trinity Laban Conservatoire of Music and Dance,105,185,University of York,2012-07-16,1R
+561,"St George's, University of London",175,145,"King's College, Cambridge",2012-07-23,1R
+562,"Wadham College, Oxford",105,120,University of Bristol,2012-08-13,1R
+563,University of Strathclyde,70,245,Durham University,2012-08-20,1R
+564,Queen Mary University of London,120,150,"Jesus College, Oxford",2012-08-27,1R
+565,"Magdalen College, Oxford",205,125,"Sidney Sussex College, Cambridge",2012-09-03,1R
+566,"Lincoln College, Oxford",175,180,University of Manchester,2012-09-10,1R
+567,Imperial College London,225,80,"Jesus College, Cambridge",2012-09-17,1R
+568,University of St Andrews,105,125,Bangor University,2012-09-24,1R
+569,"Pembroke College, Cambridge",200,140,Lancaster University,2012-10-01,1R
+570,University of Bath,125,110,University of Liverpool,2012-10-08,1R
+571,University College London,260,85,University of Exeter,2012-10-15,1R
+572,"New College, Oxford",230,145,"Homerton College, Cambridge",2012-10-22,1R
+573,University of Warwick,175,100,University of Aberdeen,2012-10-29,1R
+574,"Lincoln College, Oxford",120,165,Lancaster University,2012-11-05,HSLP
+575,"Homerton College, Cambridge",160,205,"King's College, Cambridge",2012-11-12,HSLP
+576,"Pembroke College, Cambridge",255,75,University of Bath,2012-11-19,2R
+577,University of York,145,215,"New College, Oxford",2012-11-26,2R
+578,University of Warwick,160,185,"King's College, Cambridge",2012-12-03,2R
+579,"St George's, University of London",230,140,Lancaster University,2012-12-10,2R
+580,"Magdalen College, Oxford",90,220,University of Manchester,2013-01-07,2R
+581,University of Bristol,115,245,Imperial College London,2013-01-14,2R
+582,University College London,215,180,"Jesus College, Oxford",2013-01-21,2R
+583,Bangor University,175,165,Durham University,2013-01-28,2R
+584,University of Manchester,185,115,Imperial College London,2013-02-04,QF
+585,University College London,190,125,Bangor University,2013-02-11,QF
+586,"Pembroke College, Cambridge",105,195,"St George's, University of London",2013-02-18,QF
+587,"New College, Oxford",165,125,"King's College, Cambridge",2013-02-25,QF
+588,University of Manchester,150,230,University College London,2013-03-04,QF
+589,Imperial College London,120,210,Bangor University,2013-03-11,QF
+590,"St George's, University of London",110,160,"New College, Oxford",2013-03-18,QF
+591,"Pembroke College, Cambridge",135,150,"King's College, Cambridge",2013-03-25,QF
+592,University of Manchester,220,135,"St George's, University of London",2013-04-01,QF
+593,Bangor University,195,70,"King's College, Cambridge",2013-04-08,QF
+594,University College London,195,115,"New College, Oxford",2013-04-15,SF
+595,University of Manchester,160,95,Bangor University,2013-04-22,SF
+596,University College London,140,190,University of Manchester,2013-04-29,F
+597,University of Aberdeen,105,140,Queen's University Belfast,2013-07-15,1R
+598,"St John's College, Cambridge",120,180,University of Reading,2013-07-22,1R
+599,"Trinity College, Cambridge",300,150,"Christ Church, Oxford",2013-07-29,1R
+600,Durham University,170,190,"Queens' College, Cambridge",2013-08-05,1R
+601,Loughborough University,155,195,"Clare College, Cambridge",2013-08-12,1R
+602,SOAS University of London,230,155,University of Southampton,2013-08-19,1R
+603,"Brasenose College, Oxford",105,215,University of Manchester,2013-08-26,1R
+604,Keele University,40,295,University of Liverpool,2013-09-02,1R
+605,"Balliol College, Oxford",145,250,"Peterhouse, Cambridge",2013-09-09,1R
+606,University of York,270,70,University of Bath,2013-09-16,1R
+607,"Pembroke College, Cambridge",145,255,"Somerville College, Oxford",2013-09-23,1R
+608,Cardiff University,145,95,University of Exeter,2013-09-30,1R
+609,"St John's College, Oxford",115,260,"Downing College, Cambridge",2013-10-07,1R
+610,Aberystwyth University,110,230,Bangor University,2013-10-14,1R
+611,Durham University,140,245,"Christ Church, Oxford",2013-10-21,HSLP
+612,University of Southampton,185,80,Loughborough University,2013-10-28,HSLP
+613,University of York,135,240,"Somerville College, Oxford",2013-11-04,2R
+614,"Downing College, Cambridge",135,210,Queen's University Belfast,2013-11-11,2R
+615,"Clare College, Cambridge",175,165,"Christ Church, Oxford",2013-11-18,2R
+616,Bangor University,60,335,University of Southampton,2013-11-25,2R
+617,"Trinity College, Cambridge",240,110,"Peterhouse, Cambridge",2013-12-02,2R
+618,University of Manchester,325,110,"Queens' College, Cambridge",2013-12-09,2R
+619,University of Liverpool,145,230,Cardiff University,2013-12-16,2R
+620,University of Reading,90,240,SOAS University of London,2014-01-06,2R
+621,"Trinity College, Cambridge",285,205,University of Manchester,2014-01-13,QF
+622,Cardiff University,90,200,SOAS University of London,2014-01-20,QF
+623,"Somerville College, Oxford",195,160,"Clare College, Cambridge",2014-01-27,QF
+624,Queen's University Belfast,90,290,University of Southampton,2014-02-03,QF
+625,"Trinity College, Cambridge",280,105,SOAS University of London,2014-02-10,QF
+626,University of Manchester,195,105,Cardiff University,2014-02-17,QF
+627,"Somerville College, Oxford",215,95,University of Southampton,2014-02-24,QF
+628,"Clare College, Cambridge",105,125,Queen's University Belfast,2014-03-03,QF
+629,University of Manchester,200,80,University of Southampton,2014-03-10,QF
+630,SOAS University of London,165,145,Queen's University Belfast,2014-03-17,QF
+631,"Trinity College, Cambridge",260,175,University of Manchester,2014-03-24,SF
+632,"Somerville College, Oxford",190,105,SOAS University of London,2014-03-31,SF
+633,"Trinity College, Cambridge",240,135,"Somerville College, Oxford",2014-04-07,F
+634,University of Manchester,160,190,"Selwyn College, Cambridge",2014-07-14,1R
+635,Oxford Brookes University,130,120,"Jesus College, Oxford",2014-07-21,1R
+636,University of Bristol,190,75,Courtauld Institute of Art,2014-07-28,1R
+637,"St Anne's College, Oxford",105,305,"Gonville and Caius College, Cambridge",2014-08-11,1R
+638,"St Peter's College, Oxford",205,150,University of Sussex,2014-08-18,1R
+639,London School of Hygiene & Tropical Medicine,150,140,London School of Economics,2014-08-25,1R
+640,University of Liverpool,155,130,University of Sheffield,2014-09-01,1R
+641,University of Bath,120,190,University of Glasgow,2014-09-08,1R
+642,University of Leicester,245,190,Open University,2014-09-15,1R
+643,"Trinity College, Cambridge",150,100,University of St Andrews,2014-09-22,1R
+644,University College London,230,140,University of Exeter,2014-09-29,1R
+645,"Brasenose College, Oxford",35,250,Durham University,2014-10-06,1R
+646,"Corpus Christi College, Cambridge",135,170,University of York,2014-10-13,1R
+647,"Magdalen College, Oxford",220,110,"Pembroke College, Cambridge",2014-10-20,1R
+648,Open University,180,140,London School of Economics,2014-10-27,HSLP
+649,University of Manchester,210,95,University of Sussex,2014-11-03,HSLP
+650,University of Leicester,140,220,"Trinity College, Cambridge",2014-11-10,2R
+651,Durham University,210,160,University of York,2014-11-17,2R
+652,"Magdalen College, Oxford",225,130,Open University,2014-11-24,2R
+653,"Gonville and Caius College, Cambridge",200,135,University of Manchester,2014-12-01,2R
+654,London School of Hygiene & Tropical Medicine,135,160,University of Bristol,2014-12-08,2R
+655,University of Glasgow,105,170,University of Liverpool,2014-12-15,2R
+656,"Selwyn College, Cambridge",100,235,"St Peter's College, Oxford",2015-01-05,2R
+657,Oxford Brookes University,180,90,University College London,2015-01-12,2R
+658,University of Bristol,115,175,University of Liverpool,2015-01-19,QF
+659,"St Peter's College, Oxford",240,80,Oxford Brookes University,2015-01-26,QF
+660,Durham University,95,275,"Gonville and Caius College, Cambridge",2015-02-02,QF
+661,"Magdalen College, Oxford",315,55,"Trinity College, Cambridge",2015-02-09,QF
+662,University of Liverpool,100,245,"St Peter's College, Oxford",2015-02-16,QF
+663,Oxford Brookes University,85,150,University of Bristol,2015-02-23,QF
+664,"Gonville and Caius College, Cambridge",215,155,"Magdalen College, Oxford",2015-03-02,QF
+665,Durham University,145,105,"Trinity College, Cambridge",2015-03-09,QF
+666,University of Bristol,115,250,"Magdalen College, Oxford",2015-03-16,QF
+667,University of Liverpool,100,175,Durham University,2015-03-23,QF
+668,"St Peter's College, Oxford",120,235,"Magdalen College, Oxford",2015-03-30,SF
+669,"Gonville and Caius College, Cambridge",170,75,Durham University,2015-04-06,SF
+670,"Magdalen College, Oxford",105,255,"Gonville and Caius College, Cambridge",2015-04-13,F
+671,University of Glasgow,155,185,"Peterhouse, Cambridge",2015-07-13,1R
+672,University of Liverpool,205,130,"St Peter's College, Oxford",2015-07-20,1R
+673,University of Kent,115,160,Newcastle University,2015-07-27,1R
+674,University of Manchester,90,265,University of York,2015-08-03,1R
+675,University of Nottingham,135,110,Swansea University,2015-08-10,1R
+676,Institute of Cancer Research,70,190,"St George's, University of London",2015-08-17,1R
+677,"Christ's College, Cambridge",205,60,"Kellogg College, Oxford",2015-08-24,1R
+678,University of Sussex,125,195,Queen's University Belfast,2015-08-31,1R
+679,"King's College, Cambridge",60,195,"Sidney Sussex College, Cambridge",2015-09-07,1R
+680,University of Reading,110,285,Imperial College London,2015-09-14,1R
+681,"St Catharine's College, Cambridge",165,135,University of Southampton,2015-09-21,1R
+682,"Clare College, Cambridge",100,195,University of Warwick,2015-09-28,1R
+683,Queen Mary University of London,130,165,"Nuffield College, Oxford",2015-10-05,1R
+684,"St John's College, Oxford",255,125,University of Bristol,2015-10-12,1R
+685,"St Peter's College, Oxford",120,180,University of Glasgow,2015-10-19,HSLP
+686,University of Southampton,235,120,Queen Mary University of London,2015-10-26,HSLP
+687,"Sidney Sussex College, Cambridge",75,305,Imperial College London,2015-11-02,2R
+688,University of Warwick,120,160,"Nuffield College, Oxford",2015-11-09,2R
+689,University of Glasgow,135,175,Newcastle University,2015-11-16,2R
+690,University of Southampton,155,190,University of Liverpool,2015-11-23,2R
+691,"Christ's College, Cambridge",120,225,University of York,2015-11-30,2R
+692,"St George's, University of London",90,195,"Peterhouse, Cambridge",2015-12-07,2R
+693,University of Nottingham,120,210,"St Catharine's College, Cambridge",2016-01-04,2R
+694,"St John's College, Oxford",180,100,Queen's University Belfast,2016-01-11,2R
+695,University of York,165,185,"Peterhouse, Cambridge",2016-01-18,QF
+696,"St Catharine's College, Cambridge",170,175,"St John's College, Oxford",2016-01-25,QF
+697,Imperial College London,190,85,"Nuffield College, Oxford",2016-02-01,QF
+698,Newcastle University,150,190,University of Liverpool,2016-02-08,QF
+699,"St John's College, Oxford",150,195,"Peterhouse, Cambridge",2016-02-22,QF
+700,"St Catharine's College, Cambridge",115,180,University of York,2016-02-29,QF
+701,Imperial College London,130,185,University of Liverpool,2016-03-07,QF
+702,"Nuffield College, Oxford",115,205,Newcastle University,2016-03-14,QF
+703,University of York,260,135,Imperial College London,2016-03-21,QF
+704,"St John's College, Oxford",210,120,Newcastle University,2016-03-28,QF
+705,"Peterhouse, Cambridge",145,100,University of York,2016-04-04,SF
+706,University of Liverpool,95,195,"St John's College, Oxford",2016-04-11,SF
+707,"Peterhouse, Cambridge",215,30,"St John's College, Oxford",2016-04-18,F
+708,University of Sheffield,130,210,University of Bristol,2016-07-11,1R
+709,"Corpus Christi College, Oxford",200,175,"Jesus College, Cambridge",2016-07-18,1R
+710,University of Liverpool,95,235,University of Warwick,2016-07-25,1R
+711,"Queens' College, Cambridge",150,160,"Peterhouse, Cambridge",2016-08-01,1R
+712,"Oriel College, Oxford",150,95,University of Manchester,2016-08-08,1R
+713,"Emmanuel College, Cambridge",175,135,University of Nottingham,2016-08-15,1R
+714,"Balliol College, Oxford",220,55,Imperial College London,2016-08-22,1R
+715,"Robinson College, Cambridge",155,95,"Wadham College, Oxford",2016-08-29,1R
+716,Open University,210,115,University of Salford,2016-09-05,1R
+717,University of Edinburgh,190,155,Durham University,2016-09-12,1R
+718,"Wolfson College, Cambridge",185,175,SOAS University of London,2016-09-19,1R
+719,Queen's University Belfast,105,165,University of Birmingham,2016-09-26,1R
+720,University of St Andrews,175,145,"Worcester College, Oxford",2016-10-03,1R
+721,University of Glasgow,135,150,University of East London,2016-10-10,1R
+722,"Jesus College, Cambridge",195,155,"Queens' College, Cambridge",2016-10-17,HSLP
+723,Durham University,85,270,SOAS University of London,2016-10-31,HSLP
+724,Open University,185,195,University of Edinburgh,2016-11-07,2R
+725,University of Birmingham,195,115,University of St Andrews,2016-11-14,2R
+726,University of East London,55,195,University of Warwick,2016-11-21,2R
+727,SOAS University of London,130,195,"Emmanuel College, Cambridge",2016-11-28,2R
+728,"Wolfson College, Cambridge",225,140,"Jesus College, Cambridge",2016-12-05,2R
+729,"Robinson College, Cambridge",90,210,"Balliol College, Oxford",2016-12-12,2R
+730,University of Bristol,265,70,"Oriel College, Oxford",2017-01-02,2R
+731,"Peterhouse, Cambridge",150,175,"Corpus Christi College, Oxford",2017-01-09,2R
+732,"Wolfson College, Cambridge",165,135,"Balliol College, Oxford",2017-01-16,QF
+733,University of Bristol,70,250,"Corpus Christi College, Oxford",2017-01-23,QF
+734,University of Warwick,90,200,"Emmanuel College, Cambridge",2017-01-30,QF
+735,University of Edinburgh,220,125,University of Birmingham,2017-02-06,QF
+736,"Emmanuel College, Cambridge",170,55,"Corpus Christi College, Oxford",2017-02-13,QF
+737,University of Warwick,120,110,University of Bristol,2017-02-20,QF
+738,University of Edinburgh,195,160,"Wolfson College, Cambridge",2017-02-27,QF
+739,University of Birmingham,65,265,"Balliol College, Oxford",2017-03-06,QF
+740,University of Warwick,175,205,"Wolfson College, Cambridge",2017-03-13,QF
+741,"Corpus Christi College, Oxford",160,240,"Balliol College, Oxford",2017-03-20,QF
+742,"Emmanuel College, Cambridge",140,170,"Wolfson College, Cambridge",2017-03-27,SF
+743,University of Edinburgh,140,215,"Balliol College, Oxford",2017-04-03,SF
+744,"Wolfson College, Cambridge",140,190,"Balliol College, Oxford",2017-04-10,F
+745,University of Edinburgh,165,160,Ulster University,2017-07-17,1R
+746,"Trinity College, Cambridge",95,230,University of Bristol,2017-07-24,1R
+747,University of Southampton,280,40,Cardiff University,2017-07-31,1R
+748,"St Edmund's College, Cambridge",105,185,"Magdalen College, Oxford",2017-08-14,1R
+749,University of York,80,240,University of Warwick,2017-08-21,1R
+750,Oxford Brookes University,175,85,Courtauld Institute of Art,2017-08-28,1R
+751,"Trinity College, Oxford",160,145,University College London,2017-09-04,1R
+752,Sheffield Hallam University,40,170,Newcastle University,2017-09-11,1R
+753,University of Leicester,105,200,"Fitzwilliam College, Cambridge",2017-09-18,1R
+754,Imperial College London,125,145,University of Strathclyde,2017-09-25,1R
+755,"Emmanuel College, Cambridge",170,155,"St Hugh's College, Oxford",2017-10-02,1R
+756,University of St Andrews,120,255,"St John's College, Cambridge",2017-10-09,1R
+757,"Corpus Christi College, Cambridge",225,135,"St Anne's College, Oxford",2017-10-16,1R
+758,"Merton College, Oxford",285,110,King's College London,2017-10-23,1R
+759,Ulster University,175,90,"St Anne's College, Oxford",2017-10-30,HSLP
+760,University College London,315,45,"St Hugh's College, Oxford",2017-11-06,HSLP
+761,University of Strathclyde,105,170,"Emmanuel College, Cambridge",2017-11-13,2R
+762,"St John's College, Cambridge",285,80,"Corpus Christi College, Cambridge",2017-11-20,2R
+763,University of Warwick,140,170,Ulster University,2017-11-27,2R
+764,University College London,165,170,University of Edinburgh,2017-12-04,2R
+765,University of Bristol,205,100,"Trinity College, Oxford",2017-12-18,2R
+766,Newcastle University,215,130,University of Southampton,2018-01-08,2R
+767,"Fitzwilliam College, Cambridge",200,155,"Magdalen College, Oxford",2018-01-15,2R
+768,Oxford Brookes University,175,255,"Merton College, Oxford",2018-01-22,2R
+769,University of Bristol,130,225,Newcastle University,2018-01-29,QF
+770,"Fitzwilliam College, Cambridge",125,270,"Merton College, Oxford",2018-02-05,QF
+771,"St John's College, Cambridge",185,130,Ulster University,2018-02-12,QF
+772,University of Edinburgh,125,110,"Emmanuel College, Cambridge",2018-02-19,QF
+773,Newcastle University,135,160,"St John's College, Cambridge",2018-02-26,QF
+774,University of Bristol,205,45,Ulster University,2018-03-05,QF
+775,"Merton College, Oxford",210,85,University of Edinburgh,2018-03-12,QF
+776,"Fitzwilliam College, Cambridge",175,150,"Emmanuel College, Cambridge",2018-03-19,QF
+777,University of Bristol,60,195,University of Edinburgh,2018-03-26,QF
+778,Newcastle University,205,65,"Fitzwilliam College, Cambridge",2018-04-02,QF
+779,"St John's College, Cambridge",270,60,University of Edinburgh,2018-04-09,SF
+780,"Merton College, Oxford",215,110,Newcastle University,2018-04-16,SF
+781,"St John's College, Cambridge",145,100,"Merton College, Oxford",2018-04-23,F
+782,University of Warwick,165,150,University of Exeter,2018-07-16,1R
+783,"Emmanuel College, Cambridge",175,200,University of Glasgow,2018-07-23,1R
+784,"Pembroke College, Oxford",75,230,"Downing College, Cambridge",2018-07-30,1R
+785,SOAS University of London,90,260,"Darwin College, Cambridge",2018-08-13,1R
+786,"Clare College, Cambridge",160,150,"Hertford College, Oxford",2018-08-20,1R
+787,University of Strathclyde,55,360,Durham University,2018-08-27,1R
+788,University of York,105,240,"St Edmund Hall, Oxford",2018-09-03,1R
+789,University of Edinburgh,210,75,"Sidney Sussex College, Cambridge",2018-09-10,1R
+790,University of Bristol,140,110,Queen's University Belfast,2018-09-17,1R
+791,University of London Institute in Paris,55,180,"Goldsmiths, University of London",2018-09-24,1R
+792,"St Peter's College, Oxford",225,50,"Pembroke College, Cambridge",2018-10-01,1R
+793,University College London,180,145,King's College London,2018-10-08,1R
+794,University of East London,135,155,University of Manchester,2018-10-22,1R
+795,"Keble College, Oxford",180,115,University of East Anglia,2018-10-29,1R
+796,"Emmanuel College, Cambridge",235,140,King's College London,2018-11-05,HSLP
+797,"Hertford College, Oxford",215,165,University of Exeter,2018-11-12,HSLP
+798,"St Peter's College, Oxford",120,195,"Emmanuel College, Cambridge",2018-11-19,2R
+799,"Hertford College, Oxford",115,185,University of Manchester,2018-11-26,2R
+800,University of Edinburgh,180,160,University College London,2018-12-03,2R
+801,"Clare College, Cambridge",105,245,"St Edmund Hall, Oxford",2018-12-10,2R
+802,"Goldsmiths, University of London",125,135,University of Glasgow,2018-12-17,2R
+803,Durham University,200,100,"Keble College, Oxford",2019-01-07,2R
+804,"Downing College, Cambridge",120,205,"Darwin College, Cambridge",2019-01-14,2R
+805,University of Warwick,125,190,University of Bristol,2019-01-21,2R
+806,University of Glasgow,110,170,Durham University,2019-01-28,QF
+807,"Darwin College, Cambridge",105,115,University of Bristol,2019-02-04,QF
+808,University of Manchester,130,170,University of Edinburgh,2019-02-11,QF
+809,"Emmanuel College, Cambridge",55,190,"St Edmund Hall, Oxford",2019-02-18,QF
+810,Durham University,165,110,University of Edinburgh,2019-02-25,QF
+811,University of Glasgow,70,155,University of Manchester,2019-03-04,QF
+812,University of Bristol,130,150,"St Edmund Hall, Oxford",2019-03-11,QF
+813,"Darwin College, Cambridge",225,130,"Emmanuel College, Cambridge",2019-03-18,QF
+814,University of Edinburgh,155,120,University of Bristol,2019-03-25,QF
+815,University of Manchester,120,195,"Darwin College, Cambridge",2019-04-01,QF
+816,Durham University,110,180,University of Edinburgh,2019-04-08,SF
+817,"St Edmund Hall, Oxford",165,140,"Darwin College, Cambridge",2019-04-15,SF
+818,University of Edinburgh,155,140,"St Edmund Hall, Oxford",2019-04-22,F
+819,Lancaster University,95,230,University of Glasgow,2019-07-15,1R
+820,"Corpus Christi College, Cambridge",195,140,"Merton College, Oxford",2019-07-22,1R
+821,"Magdalen College, Oxford",170,150,University of York,2019-07-29,1R
+822,University of Birmingham,125,120,University of Bristol,2019-08-05,1R
+823,"Wolfson College, Cambridge",40,115,"St John's College, Oxford",2019-08-12,1R
+824,University of Edinburgh,165,90,"Birkbeck, University of London",2019-08-19,1R
+825,"Jesus College, Oxford",145,185,University of Manchester,2019-09-02,1R
+826,Durham University,145,200,"Trinity College, Cambridge",2019-09-09,1R
+827,London School of Economics,90,145,Courtauld Institute of Art,2019-09-16,1R
+828,"Goldsmiths, University of London",95,175,University of Southampton,2019-09-23,1R
+829,Open University,125,145,University of Huddersfield,2019-10-07,1R
+830,"Wolfson College, Oxford",180,170,University of Sheffield,2019-10-14,1R
+831,Imperial College London,255,70,"Brasenose College, Oxford",2019-10-21,1R
+832,"Lady Margaret Hall, Oxford",150,145,"Downing College, Cambridge",2019-10-28,1R
+833,University of Sheffield,165,170,"Jesus College, Oxford",2019-11-04,HSLP
+834,University of York,145,240,Durham University,2019-11-11,HSLP
+835,University of Birmingham,120,150,"Jesus College, Oxford",2019-11-18,2R
+836,University of Southampton,95,245,Durham University,2019-11-25,2R
+837,Courtauld Institute of Art,180,145,University of Glasgow,2019-12-02,2R
+838,Imperial College London,255,105,"St John's College, Oxford",2019-12-09,2R
+839,University of Huddersfield,90,205,University of Manchester,2019-12-16,2R
+840,"Trinity College, Cambridge",245,100,"Lady Margaret Hall, Oxford",2020-01-06,2R
+841,"Wolfson College, Oxford",220,100,University of Edinburgh,2020-01-13,2R
+842,"Magdalen College, Oxford",75,270,"Corpus Christi College, Cambridge",2020-01-20,2R
+843,University of Manchester,95,300,"Trinity College, Cambridge",2020-01-27,QF
+844,"Wolfson College, Oxford",140,180,"Corpus Christi College, Cambridge",2020-02-03,QF
+845,"Jesus College, Oxford",110,195,Durham University,2020-02-10,QF
+846,Courtauld Institute of Art,75,240,Imperial College London,2020-02-17,QF
+847,"Trinity College, Cambridge",80,245,"Corpus Christi College, Cambridge",2020-02-24,QF
+848,University of Manchester,125,130,"Wolfson College, Oxford",2020-03-02,QF
+849,Durham University,115,185,Imperial College London,2020-03-09,QF
+850,"Jesus College, Oxford",135,90,Courtauld Institute of Art,2020-03-16,QF
+851,"Wolfson College, Oxford",45,205,Durham University,2020-03-23,QF
+852,"Trinity College, Cambridge",285,75,"Jesus College, Oxford",2020-03-30,QF
+853,"Corpus Christi College, Cambridge",185,130,Durham University,2020-04-06,SF
+854,Imperial College London,235,80,"Trinity College, Cambridge",2020-04-13,SF
+855,"Corpus Christi College, Cambridge",105,275,Imperial College London,2020-04-20,F
