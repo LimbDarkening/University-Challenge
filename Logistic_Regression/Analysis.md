@@ -3,11 +3,11 @@ The aim for this investigation was to derive the historical importance of score 
 
 A suitable technique for this line of enquiry is linear logistic regression. We begin by stating the sigmoid function that will model the probability of winning the match, as a function of a team’s score, as    
 
-<img src="https://bit.ly/2F3RFto" align="center" border="0" alt="P\left ( z \right )=\frac{1}{1+e^{-z}}" width="183" height="65" />
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(z)&space;=&space;\frac{1}{1&plus;e^{-z}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(z)&space;=&space;\frac{1}{1&plus;e^{-z}}" title="P(z) = \frac{1}{1+e^{-z}}" /></a>
 
-Where Z is given by the linear combination,
+Where z is given by the linear combination,
 
-<img src="https://bit.ly/3bt0kBP" align="center" border="0" alt=" \beta_{0} + \beta_{1} x" width="115" height="29" /> 
+<a href="https://www.codecogs.com/eqnedit.php?latex=z&space;=&space;\beta&space;_{0}&plus;\beta&space;_{1}x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z&space;=&space;\beta&space;_{0}&plus;\beta&space;_{1}x" title="z = \beta _{0}+\beta _{1}x" /></a>
 
 where X is a teams score.
 
