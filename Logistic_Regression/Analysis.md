@@ -1,6 +1,6 @@
 # Analysis
 The aim for this investigation was to derive the historical importance of score to the success of a team. Obviously one needs to outscore their opponent, but by how much? When can we say that a team has accrued enough points to have a greater than 50% chance of winning the match?
-
+## Methodology
 A suitable technique for this line of enquiry is linear logistic regression. We begin by stating the sigmoid function that will model the probability of winning the match, as a function of a team’s score, as    
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=P(z)&space;=&space;\frac{1}{1&plus;e^{-z}}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(z)&space;=&space;\frac{1}{1&plus;e^{-z}}" title="P(z) = \frac{1}{1+e^{-z}}" /></a>
@@ -9,7 +9,7 @@ Where z is given by the linear combination,
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=z&space;=&space;\beta&space;_{0}&plus;\beta&space;_{1}x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?z&space;=&space;\beta&space;_{0}&plus;\beta&space;_{1}x" title="z = \beta _{0}+\beta _{1}x" /></a>
 
-where X is a teams score.
+where x is a teams score.
 
 We proceed to derive the coefficients beta naught and beta one by maximising the log likelihood for a Bernoulli random variable, since the labels we are predicting are binary in nature. The likelihood can be stated as, 
 
