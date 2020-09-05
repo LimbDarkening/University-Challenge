@@ -13,4 +13,4 @@ where X is a teams score.
 
 We proceed to derive the coefficients beta naught and beta one by maximising the log likelihood for a Bernoulli random variable, since the labels we are predicting are binary in nature. The likelihood can be stated as, 
 
-<img src="https://bit.ly/3lS4JCV" align="center" border="0" alt="LL(z)= \sum_{i=1}^{n} y^{i}\log p(z^{i}) +\left ( 1- y^{i}\right )\log\left ( 1- p(z^{i})\right )" width="575" height="75" />
+<img src="https://bit.ly/3lS4JCV" align="center" border="0" alt="LL(z)= \sum_{i=1}^{n} y^{i}\log p(z^{i}) +\left ( 1- y^{i}\right )\log\left ( 1- p(z^{i})\right )" width="575" height="75" /> 
