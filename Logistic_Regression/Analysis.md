@@ -7,4 +7,4 @@ A suitable technique for this line of enquiry is linear logistic regression. We 
 
 Where z is given by the linear combination,
 
-<img src="https://bit.ly/3bt0kBP" align="center" border="0" alt=" \beta_{0} + \beta_{1} x" width="115" height="29" />
+<img src="https://bit.ly/3bt0kBP" align="center" border="0" alt=" \beta_{0} + \beta_{1} x" width="115" height="29" /> 
