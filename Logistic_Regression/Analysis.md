@@ -15,4 +15,8 @@ We proceed to derive the coefficients beta naught and beta one by maximising the
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=LL(z)=&space;\sum_{i=1}^{n}&space;y^{i}\log&space;p(z^{i})&space;&plus;\left&space;(&space;1-&space;y^{i}\right&space;)\log\left&space;(&space;1-&space;p(z^{i})\right&space;)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?LL(z)=&space;\sum_{i=1}^{n}&space;y^{i}\log&space;p(z^{i})&space;&plus;\left&space;(&space;1-&space;y^{i}\right&space;)\log\left&space;(&space;1-&space;p(z^{i})\right&space;)" title="LL(z)= \sum_{i=1}^{n} y^{i}\log p(z^{i}) +\left ( 1- y^{i}\right )\log\left ( 1- p(z^{i})\right )" /></a>
 
-The negation of this function was mininised using `scipy.optimize` and the BFGS methodology. 
+The negation of this function was mininised using `scipy.optimize` and the BFGS methodology.
+
+## Results
+
+![GitHub Logo](/Logistic_Regression/Full_fit.png)
