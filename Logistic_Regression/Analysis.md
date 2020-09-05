@@ -19,4 +19,6 @@ The negation of this function was mininised using `scipy.optimize` and the BFGS 
 
 ## Results
 
-![GitHub Logo](/Logistic_Regression/Full_fit.png)
+![full_fit](/Logistic_Regression/Full_fit.png)
+
+Above we have the full fit of all team scores from 1994 to 2019. We find that a score over 171 points has a greater than 50% chance to win any match through out the modern history of University Challenge. 25% and 75% quartiles are also shown.
