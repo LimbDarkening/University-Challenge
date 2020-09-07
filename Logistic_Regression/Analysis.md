@@ -1,5 +1,5 @@
 # Analysis
-The aim for this investigation was to derive the historical importance of score to the success of a team. Obviously one needs to outscore their opponent, but by how much? When can we say that a team has accrued enough points to have a greater than 50% chance of winning the match?
+The aim for this investigation was to derive the historical importance of score to the success of a team. Obviously one needs to outscore their opponent, but by how much? When can we say that a team has accrued enough points to have a greater than 50% chance of winning the match? How has this score changed over the seasons?
 ## Methodology
 A suitable technique for this line of enquiry is linear logistic regression. We begin by stating the sigmoid function that will model the probability of winning the match, as a function of a team’s score, as    
 
@@ -22,3 +22,7 @@ The negation of this function was mininised using `scipy.optimize` and the BFGS 
 ![full_fit](/Logistic_Regression/Full_fit.png)
 
 Above we have the full fit of all team scores from 1994 to 2019. We find that a score over 171 points has a greater than 50% chance to win any match through out the modern history of University Challenge. 25% and 75% quartiles are also shown.
+
+![full_fit](/Logistic_Regression/3_season_fit.png)
+![full_fit](/Logistic_Regression/avg_score_VS_p_score.png)
+
