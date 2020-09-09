@@ -12,4 +12,6 @@ here O is the observed frequency for bin i and E is the expected frequency for b
 
 Where F is the cdf of our Gaussian distribution, N the number of data points, and L u/l the upper and lower bound of the bin we are generating the expected frequency for.
 
+One of the limitations of this chi squared approach is that the validity of the technique is a function of the binning technique. If too few data points are grouped together our chi-squared value becomes unreliable. Here we used Sturges’ method for calculating bin edges and achieved a minimum of 10 data points per bin.
 
+Once calculated we can then compare this statistic to the critical value from the chi square distribution with equivalent degrees of freedom, and a significance value of 0.05, to assess if we can reject the null hypothesis that the data is normally distributed.
