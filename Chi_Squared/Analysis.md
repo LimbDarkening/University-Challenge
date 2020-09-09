@@ -20,3 +20,7 @@ Once calculated we can then compare this statistic to the critical value from th
 # Results
 
 ![hists](/Chi_Squared/PDFs.png)
+
+Using the above methodology we achieve a chi squared value of 135.5 and 21.1 for the winning and losing distributions respectively. This gives p values of 4.5E-20 and 0.33 respectively. We can very confidently dismiss the null hypothesis for the winning data, and must accept it for the losing distribution likewise.
+
+Above we have a plot of both distributions, normalised, with the best fitting Gaussian overlaid upon the losers distribution. The Gaussian was generated with the maximum likelihood estimators for the mean and standard deviation derived from the sample.  
