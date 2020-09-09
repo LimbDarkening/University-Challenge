@@ -19,4 +19,4 @@ Once calculated we can then compare this statistic to the critical value from th
 
 # Results
 
-
+![hists](/Chi_Squared/PDFs.png)
