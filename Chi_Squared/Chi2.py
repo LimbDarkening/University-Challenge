@@ -38,7 +38,7 @@ class Chi_Squared_test():
 
 if __name__ == "__main__":
     #Select data
-    DATA = pd.read_csv('UC_database.txt')
+    DATA = pd.read_csv('C:/Users/User/Documents/University-Challenge/UC_database.txt')
 
     RESULTS_T1 = (DATA['Team1_score'] > DATA['Team2_score']) * 1
     RESULTS_T2 = np.logical_not(RESULTS_T1) * 1

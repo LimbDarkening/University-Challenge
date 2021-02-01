@@ -3,7 +3,7 @@ import numpy as np
 from scipy import optimize
 import matplotlib.pyplot as plt
 
-class Log_Regress():
+class Log_Regress:
     """ Performs Logistical Regression on a single feature."""
     def __init__(self):
         self.coeff = (0, 0)
@@ -52,7 +52,7 @@ class Log_Regress():
 
 if __name__ == "__main__":
     #Select data
-    DATA = pd.read_csv('UC_database.txt')
+    DATA = pd.read_csv('C:/Users/User/Documents/University-Challenge/UC_database.txt')
     
     RESULTS_T1 = (DATA['Team1_score'] > DATA['Team2_score']) * 1
     RESULTS_T2 = np.logical_not(RESULTS_T1) * 1
@@ -65,7 +65,7 @@ if __name__ == "__main__":
             'SEASON': SEASON}
     INPUT = pd.DataFrame(_DIC, columns=['SCORE','RESULT','SEASON'])
     
-    """    
+        
     #Full fit of data
     INST  = Log_Regress()
     INST.fit(INPUT)
@@ -78,7 +78,7 @@ if __name__ == "__main__":
         plt.plot([0, bound],[IQR[i], IQR[i]], linestyle='-.', c='r' )
         plt.text(0, IQR[i]+0.05, f'{IQR[i]*100}% = {int(bound)}')
     
-    """
+    
     """
     #start mid end fits
     labels = [1994, 2006, 2019]

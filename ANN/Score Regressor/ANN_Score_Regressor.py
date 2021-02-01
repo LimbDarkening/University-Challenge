@@ -173,8 +173,9 @@ class rank_calculator(cleaner):
                 out = pd.DataFrame(round_data).T
                        
 
-            R_results = pd.DataFrame(self.regr.predict(out[[0,3,1,4]]), columns=['Team1_score',
-                                                                                 'Team2_score'])
+            R_results = pd.DataFrame(self.regr.predict(out[[0,3,1,4]]),
+                                     columns=['Team1_score',
+                                              'Team2_score'])
             R_results['Team1'] = team1
             R_results['Team2'] = team2
             return R_results
@@ -196,24 +197,34 @@ class rank_calculator(cleaner):
                     name, score = pair
                     scores_dict[name].append(score)
                     
-          
+            winners = list(results['Team1'][T1_win].append(results['Team2'][T2_win]))
+            
             if args: #SORT OUT HSL
-                pass
-                 
-            output = list(results['Team1'][T1_win].append(results['Team2'][T2_win]))
-            return output
+                T1_loser = results[['Team1','Team1_score']][T2_win]
+                T2_loser = results[['Team2','Team2_score']][T1_win]
+                
+                loserteams = T1_loser['Team1'].append(T2_loser['Team2'])
+                loser_scores = T1_loser['Team1_score'].append(T2_loser['Team2_score'])
+                losers = pd.DataFrame({'Losers' : loserteams,
+                                       'Loser_score' : loser_scores})
+                losers = losers.sort_values(by=['Loser_score']) 
+                HSL = losers.iloc[-4:]['Losers']
+                
+                return winners, HSL
+            
+            return winners
         
                 
         #FIRST ROUND ---------------------------------------------------------
 
         R1_results = round_sim() 
-        R1_winners = winners(R1_results)
+        R1_winners = winners(R1_results, True)
         
         #HIGHEST SCORING LOSER ROUND -----------------------------------------
 
         return R1_winners
 
-participants = pd.read_csv('C:/Users/User/Documents/University-Challenge/ANN/2020_Participants.txt',
+participants = pd.read_csv('C:/Users/User/Documents/University-Challenge/ANN/Score Regressor/2020_Participants.txt',
                            names = ['Teams'])
 main = rank_calculator(list(participants['Teams']))
 z = main.tournament_sim()
