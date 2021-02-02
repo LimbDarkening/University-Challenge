@@ -134,10 +134,12 @@ class rank_calculator(cleaner):
         '''Simulates a UC tournament with random seeding'''
         #Get new copy of team histories
         scores_dict = self.run_avg_dict.copy()
-
+        
         def round_sim(*args):
             '''Formats the input to regression network for each round, and
             predicts results. Defaults to all participants for R1'''
+            
+            #Check if R1
             if args:
                 participants = args[0]
             else:
@@ -180,49 +182,75 @@ class rank_calculator(cleaner):
             R_results['Team2'] = team2
             return R_results
         
-        def winners(results, *args):
+        def winners_losers(results, round_rank, *args):
             '''Returns a list of winners and updates the score dictionary'''
             T1_win = results['Team1_score'] > results['Team2_score']
             T2_win = np.logical_not(T1_win)
-            T1_win_score = zip(results['Team1'][T1_win],
-                               results['Team1_score'][T1_win]
-                               )
-            T2_win_score = zip(results['Team2'][T2_win],
-                               results['Team2_score'][T2_win]
-                               )
-            win_scores = [T1_win_score, T2_win_score]
+            T1_score = zip(results['Team1'],
+                           results['Team1_score']
+                           )
+            T2_score = zip(results['Team2'],
+                           results['Team2_score']
+)
+            name_scores = [T1_score, T2_score]
             
-            for win_score in win_scores:
-                for pair in win_score:
+            for name_score in name_scores:
+                for pair in name_score:
                     name, score = pair
                     scores_dict[name].append(score)
                     
             winners = list(results['Team1'][T1_win].append(results['Team2'][T2_win]))
             
-            if args: #SORT OUT HSL
-                T1_loser = results[['Team1','Team1_score']][T2_win]
-                T2_loser = results[['Team2','Team2_score']][T1_win]
+            T1_loser = results[['Team1','Team1_score']][T2_win]
+            T2_loser = results[['Team2','Team2_score']][T1_win]
                 
-                loserteams = T1_loser['Team1'].append(T2_loser['Team2'])
-                loser_scores = T1_loser['Team1_score'].append(T2_loser['Team2_score'])
-                losers = pd.DataFrame({'Losers' : loserteams,
-                                       'Loser_score' : loser_scores})
+            loserteams = T1_loser['Team1'].append(T2_loser['Team2'])
+            loser_scores = T1_loser['Team1_score'].append(T2_loser['Team2_score'])
+            losers = pd.DataFrame({'Losers' : loserteams,
+                                   'Loser_score' : loser_scores})
+            Loser_dict = {name : round_rank for name in losers['Losers']}
+            
+            if args: #HSL list
                 losers = losers.sort_values(by=['Loser_score']) 
                 HSL = losers.iloc[-4:]['Losers']
                 
-                return winners, HSL
+                return winners, Loser_dict, list(HSL)
+            else:
+                return winners, Loser_dict
             
-            return winners
-        
+        def quarter_final_round():
+            pass
                 
         #FIRST ROUND ---------------------------------------------------------
 
-        R1_results = round_sim() 
-        R1_winners = winners(R1_results, True)
+        R1_results = round_sim()
+        R1_winners, rank_dict, Hsl = winners_losers(R1_results, 0, True)
         
         #HIGHEST SCORING LOSER ROUND -----------------------------------------
+        
+        HSL_results = round_sim(Hsl)
+        HSL_winners, HSL_losers = winners_losers(HSL_results, 1)
+        rank_dict.update(HSL_losers)
+        
+        R2_input = R1_winners + HSL_winners
+        
+        #SECOND ROUND --------------------------------------------------------
+        
+        R2_results = round_sim(R2_input)
+        R2_winners, R2_losers = winners_losers(R2_results, 2)
+        rank_dict.update(R2_losers)
+        
+        #QUARTER FINAL ROUND -------------------------------------------------
+        '''Needs its own function, they now seed'''
+        S1QF_results = round_sim(R2_winners)
+        S1QF_winners, S1QF_losers = winners_losers(S1QF_results, 3)
+        S2QF_results = round_sim(R2_winners)
+        S2QF_winners, S2QF_losers = winners_losers(S2QF_results, 3)
+        
+        double_win = list(set(S1QF_winners).intersection(S2QF_winners))
 
-        return R1_winners
+
+        return double_win
 
 participants = pd.read_csv('C:/Users/User/Documents/University-Challenge/ANN/Score Regressor/2020_Participants.txt',
                            names = ['Teams'])
