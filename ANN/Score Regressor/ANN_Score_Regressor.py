@@ -144,13 +144,17 @@ class rank_calculator(cleaner):
                 participants = args[0]
             else:
                 participants = self.participants
-
-            np.random.shuffle(participants)
+                
+            qf = len(participants) == 8
+            if not qf:
+                np.random.shuffle(participants)
+            
+                
             cutoff = int(len(participants)/2)
             team1 = participants[:cutoff]
             team2 = participants[cutoff:]
+                
             teamset = (team1, team2)
-            
             round_data = []
             for teams in teamset:
                 #Assumes no new teams
@@ -182,8 +186,11 @@ class rank_calculator(cleaner):
             R_results['Team2'] = team2
             return R_results
         
+           
         def winners_losers(results, round_rank, *args):
             '''Returns a list of winners and updates the score dictionary'''
+            qf = len(results) == 4
+            
             T1_win = results['Team1_score'] > results['Team2_score']
             T2_win = np.logical_not(T1_win)
             T1_score = zip(results['Team1'],
@@ -191,15 +198,21 @@ class rank_calculator(cleaner):
                            )
             T2_score = zip(results['Team2'],
                            results['Team2_score']
-)
+                           )
             name_scores = [T1_score, T2_score]
             
             for name_score in name_scores:
                 for pair in name_score:
                     name, score = pair
                     scores_dict[name].append(score)
-                    
-            winners = list(results['Team1'][T1_win].append(results['Team2'][T2_win]))
+            
+            T1_winner = results[['Team1','Team1_score']][T1_win]
+            T2_winner= results[['Team2','Team2_score']][T2_win]
+                
+            winteams = T1_winner['Team1'].append(T2_winner['Team2'])
+            win_scores = T1_winner['Team1_score'].append(T2_winner['Team2_score'])
+            winners_df = pd.DataFrame({'winners' : winteams,
+                                       'win_score' : win_scores})
             
             T1_loser = results[['Team1','Team1_score']][T2_win]
             T2_loser = results[['Team2','Team2_score']][T1_win]
@@ -208,19 +221,25 @@ class rank_calculator(cleaner):
             loser_scores = T1_loser['Team1_score'].append(T2_loser['Team2_score'])
             losers = pd.DataFrame({'Losers' : loserteams,
                                    'Loser_score' : loser_scores})
+            losers = losers.sort_values(by=['Loser_score'])
             Loser_dict = {name : round_rank for name in losers['Losers']}
             
+            if qf:
+                winners_df = winners_df.sort_values(by=['win_score'])
+                Loser_dict = list(losers['Losers'])
+
+                
+            
+            winners = list(winners_df['winners'])
             if args: #HSL list
-                losers = losers.sort_values(by=['Loser_score']) 
+                 
                 HSL = losers.iloc[-4:]['Losers']
                 
                 return winners, Loser_dict, list(HSL)
+            
             else:
                 return winners, Loser_dict
             
-        def quarter_final_round():
-            pass
-                
         #FIRST ROUND ---------------------------------------------------------
 
         R1_results = round_sim()
@@ -241,16 +260,48 @@ class rank_calculator(cleaner):
         rank_dict.update(R2_losers)
         
         #QUARTER FINAL ROUND -------------------------------------------------
-        '''Needs its own function, they now seed'''
+        
         S1QF_results = round_sim(R2_winners)
         S1QF_winners, S1QF_losers = winners_losers(S1QF_results, 3)
-        S2QF_results = round_sim(R2_winners)
+        
+        S2QFT1 = [S1QF_winners[0], S1QF_winners[1], S1QF_losers[0], S1QF_losers[1]]
+        S2QFT2 = [S1QF_winners[3], S1QF_winners[2], S1QF_losers[3], S1QF_losers[2]]
+        S2QF_input = S2QFT1 + S2QFT2
+        
+        S2QF_results = round_sim(S2QF_input)
         S2QF_winners, S2QF_losers = winners_losers(S2QF_results, 3)
         
+
         double_win = list(set(S1QF_winners).intersection(S2QF_winners))
+        double_loss = list(set(S1QF_losers).intersection(S2QF_losers))
+        double_loss_dict = dict(zip(double_loss, [3,3]))
 
+        single_winS1 = list(set(S1QF_winners).intersection(S2QF_losers))
+        single_winS2 = list(set(S2QF_winners).intersection(S1QF_losers))
+        single_win = single_winS1 + single_winS2
 
-        return double_win
+        
+        S3QF_results = round_sim(single_win)
+        S3QF_winners, S3QF_losers = winners_losers(S3QF_results, 3)
+        rank_dict.update(double_loss_dict)
+        rank_dict.update(S3QF_losers)
+        
+        SF_input = double_win + S3QF_winners
+        
+        #SEMI FINAL ROUND -----------------------------------------------------
+        
+        SF_results = round_sim(SF_input)
+        SF_winners, SF_losers = winners_losers(SF_results, 4)
+        rank_dict.update(SF_losers)
+        
+        #FINAL ROUND ----------------------------------------------------------
+        
+        F_results = round_sim(SF_winners)
+        F_winner, F_loser = winners_losers(F_results, 5)
+        rank_dict.update(F_loser)
+        rank_dict[F_winner[0]] = 6
+        
+        return rank_dict
 
 participants = pd.read_csv('C:/Users/User/Documents/University-Challenge/ANN/Score Regressor/2020_Participants.txt',
                            names = ['Teams'])
